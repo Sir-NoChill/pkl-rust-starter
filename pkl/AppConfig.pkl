@@ -1,0 +1,10 @@
+// @rust.Package { name = "example/appconfig" }
+module example.AppConfig
+
+// import "package://pkg.pkl-lang.org/pkl-go/pkl.golang@0.6.0#/go.pkl"
+
+/// The hostname of this application.
+host: String
+
+/// The port to listen on.
+port: UInt16
